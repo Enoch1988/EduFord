@@ -10,3 +10,8 @@
     background-color: #3273dc;
     color: white;
 }
+
+.custom-logo {
+    max-height: 70px !important;
+}
+
