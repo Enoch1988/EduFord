@@ -1,196 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta tags for character encoding and viewport configuration -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Link to external CSS file -->
-    
-    
-    <!-- Preconnects and stylesheet links for Google Fonts and FontAwesome icons -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-    <!-- Page title -->
     <title>Educare</title>
-   
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
     <!-- Header section -->
-    <section class="Header">
-        <!-- Navigation bar -->
-        <nav>
-            <!-- Logo link -->
-            <a href="Index.html"><img src="images/e.png" alt="site logo" style="max-height: 70px" class="py-2 px-2"></a>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="Index.html">
+                        <img src="images/e.png" alt="Educare Logo" class="has-wight-70px">
+                    </a>
+                    <!-- Hamburger menu for mobile view -->
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
 
-            <!-- Navigation links -->
-            <div class="nav-links" id="navlinks">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a class="navbar-link" href="https://bulma.io/documentation/overview/start/">Course</a></li>
-                    
-                    <div class="navbar-dropdown is-boxed">
-                        <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">Overview</a>
-          <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">Modifiers</a>
-          <hr class="navbar-divider">
-          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">Columns</a>
-          <a class="navbar-item is-selected" href="https://bulma.io/documentation/layout/container/">Layout</a>
-          <a class="navbar-item" href="https://bulma.io/documentation/form/general/">Form</a>
-          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">Elements</a>
-          <a class="navbar-item" href="https://bulma.io/documentation/components/breadcrumb/">omponents</a>
-
+                <div id="navbarBasic" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="#">Home</a>
+                        <a class="navbar-item" href="#">About Us</a>
+                        <a class="navbar-item" href="#">Course</a>
+                        <a class="navbar-item" href="#">Study at Educare</a>
+                        <a class="navbar-item" href="#">Blog</a>
+                        <a class="navbar-item" href="#">Contact</a>
                     </div>
-                    <li><a href="">Study at Educare</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
+                </div>
+            </nav>
+            <div class="container has-text-centered">
+                <h1 class="title">The Leading Education in Afrika</h1>
+                <p class="subtitle">Seize the opportunity to join Afrika's leading education. eduCare is a global child school in Afrika.<br> Unleashing human potential to create a fair and just society.</p>
+                <a class="button is-link" href="#">READ MORE</a>
             </div>
-        </nav>
-
-        <!-- Header text content -->
-        <div class="text-box">
-            <h1>The Leading Education in Afrika</h1>
-            <p>Seize the opportunity to join Afrika's leading education. eduCare is a global child school in Afrika. <br>Unleashing human potential to create a fair and just society.</p>
-            <a href="" class="hero-btn">READ MORE</a>
         </div>
     </section>
 
     <!-- Courses section -->
-    <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-        <!-- Course descriptions container -->
-        <div class="container">
-            <!-- Course option 1 -->
-            <div class="row">
-                <div class="course-col">
-                    <h3>Intermediate</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ex possimus corrupti quod iusto placeat pariatur quia aspernatur culpa exercitationem libero distinctio aliquam sint, alias reprehenderit blanditiis cumque necessitatibus natus rerum.</p>
+    <section class="section">
+        <div class="container has-text-centered">
+            <h1 class="title">Courses We Offer</h1>
+            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-5">Intermediate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex possimus corrupti quod iusto placeat pariatur quia aspernatur culpa exercitationem libero distinctio aliquam sint.</p>
+                    </div>
                 </div>
-            </div>
-
-            <!-- Course option 2 -->
-            <div class="row">
-                <div class="course-col">
-                    <h3>Degree</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ex possimus corrupti quod iusto placeat pariatur quia aspernatur culpa exercitationem libero distinctio aliquam sint, alias reprehenderit blanditiis cumque necessitatibus natus rerum.</p>
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-5">Degree</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex possimus corrupti quod iusto placeat pariatur quia aspernatur culpa exercitationem libero distinctio aliquam sint.</p>
+                    </div>
                 </div>
-            </div>
-
-            <!-- Course option 3 -->
-            <div class="row">
-                <div class="course-col">
-                    <h3>Post Graduate</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ex possimus corrupti quod iusto placeat pariatur quia aspernatur culpa exercitationem libero distinctio aliquam sint, alias reprehenderit blanditiis cumque necessitatibus natus rerum.</p>
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-5">Post Graduate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex possimus corrupti quod iusto placeat pariatur quia aspernatur culpa exercitationem libero distinctio aliquam sint.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Global Campus Partner section -->
-    <section class="campus">
-        <h1>Global School Partner</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-        <!-- Campus locations container -->
-        <div class="raw">
-            <!-- Campus 1: Cape Town -->
-            <div class="col">
-                <img src="images/cpt.jpeg" alt="">
-                <div class="layer0">
-                    <h3>Cape Town</h3>
+    <section class="section has-background-light">
+        <div class="container has-text-centered">
+            <h1 class="title has-text-dark">Global School Partner</h1> <!-- Updated color -->
+            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="columns">
+                <div class="column is-one-third">
+                    <figure class="image is-200x200 mx-auto">
+                        <img src="images/cpt.jpeg" alt="Cape Town">
+                    </figure>
+                    <h3 class="title is-5 has-text-dark">Cape Town</h3>
                 </div>
-            </div>
-
-            <!-- Campus 2: London -->
-            <div class="col">
-                <img src="images/london.jpeg" alt="">
-                <div class="layer1">
-                    <h3>London</h3>
+                <div class="column is-one-third">
+                    <figure class="image is-200x200 mx-auto">
+                        <img src="images/london.jpeg" alt="London">
+                    </figure>
+                    <h3 class="title is-5 has-text-dark">London</h3>
                 </div>
-            </div>
-
-            <!-- Campus 3: New York -->
-            <div class="col">
-                <img src="images/nyc.jpeg" alt="">
-                <div class="layer2">
-                    <h3>New York</h3>
+                <div class="column is-one-third">
+                    <figure class="image is-200x200 mx-auto">
+                        <img src="images/nyc.jpeg" alt="New York">
+                    </figure>
+                    <h3 class="title is-5 has-text-dark">New York</h3>
                 </div>
             </div>
         </div>
     </section>
 
-    <!----------- Facilities ----------->
+    <!-- Facilities section -->
+    <section class="section">
+        <div class="container has-text-centered">
+            <h1 class="title">Our Facilities</h1>
+            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="columns is-multiline">
+                <div class="column is-one-quarter">
+                    <a href="#"><img src="images/library.jpeg" alt="Library" class="image"></a>
+                    <h3 class="title is-5">Visit Our Library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolor cum? Similique fugit at porro sunt mollitia nemo iusto illum et dolor.</p>
+                </div>
+                <div class="column is-one-quarter">
+                    <a href="#"><img src="images/playgrounds.jpeg" alt="Playgrounds" class="image"></a>
+                    <h3 class="title is-5">Visit Our Playgrounds</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolor cum? Similique fugit at porro sunt mollitia nemo iusto illum et dolor.</p>
+                </div>
+                <div class="column is-one-quarter">
+                    <a href="#"><img src="images/sleeping.jpeg" alt="Sleeping Area" class="image"></a>
+                    <h3 class="title is-5">Visit Our Sleeping Area</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolor cum? Similique fugit at porro sunt mollitia nemo iusto illum et dolor.</p>
+                </div>
+                <div class="column is-one-quarter">
+                    <a href="#"><img src="images/vivre.jpeg" alt="Kitchen" class="image"></a>
+                    <h3 class="title is-5">Visit Our Kitchen</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolor cum? Similique fugit at porro sunt mollitia nemo iusto illum et dolor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="Facilities">
-    <h1>Our Facilities</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <div class="row-f">
-        <div class="f-col">
-            <a href="#"><img src="images/library.jpeg" alt=""></a>
-            <h3>Visit Our Library</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Placeat, dolor cum? Similique fugit at porro sunt mollitia nemo iusto illum et dolor, <br>vel neque illo perferendis rerum velit perspiciatis ab!</p>
+    <!-- Call to Action -->
+    <section class="section has-background-primary has-text-centered">
+        <h1 class="title has-text-white">Enroll For Our Various Online Courses</h1>
+        <a href="#" class="button is-link is-large">CONTACT US</a>
+    </section>
 
+    <!-- Footer -->
+    <section class="section has-background-dark has-text-centered">
+        <a href="#" class="has-text-white"><h4 class="title is-4">About Us</h4></a>
+        <p class="has-text-grey-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Quos illum corrupti, eligendi debitis numquam cupiditate accusantium perspiciatis inventore iure.</p>
+        
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="#" class="icon has-text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="icon has-text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon has-text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon has-text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="icon has-text-white mx-2"><i class="fab fa-youtube"></i></a>
         </div>
         
-        <div class="f-col">
-           <a href="#"><img src="images/playgrounds.jpeg" alt=""></a>
-            <h3>Visit Our Playgrounds</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Placeat, dolor cum? Similique fugit at porro sunt mollitia nemo iusto illum et dolor, <br>vel neque illo perferendis rerum velit perspiciatis ab!</p>
-
+        <!-- Copyright -->
+        <div class="mt-4">
+            <p class="has-text-grey-light">&copy; 2024 Eduford - All rights reserved. POPIA | PAIA.</p>
         </div>
-        <div class="f-col">
-            <a href="#"><img src="images/sleeping.jpeg" alt=""></a>
-            <h3>Visit Our Sleeping Area</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Placeat, dolor cum? Similique fugit at porro sunt mollitia nemo iusto illum et dolor, <br>vel neque illo perferendis rerum velit perspiciatis ab!</p>
+    </section>
 
-        </div>
-        <div class="f-col">
-            <a href="#"><img src="images/vivre.jpeg" alt=""></a>
-            <h3>Visit Our kitchen</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Placeat, dolor cum? Similique fugit at porro sunt mollitia nemo iusto illum et dolor, <br>vel neque illo perferendis rerum velit perspiciatis ab!</p>
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Select all navbar-burger elements
+            const navbarBurgers = document.querySelectorAll('.navbar-burger');
 
-        </div>
+            // Add a click event on each of them
+            navbarBurgers.forEach(burger => {
+                burger.addEventListener('click', () => {
+                    // Get the target from the "data-target" attribute
+                    const target = burger.dataset.target;
+                    const navbarMenu = document.getElementById(target);
 
-    </div>
-
-</section>
-
-<!-------- Call To Action -------->
-
-<section class="cta">
-    <h1>Enroll For our Various Online Courses</h1>
-    <a href="" class="hero-btn">CONTACT US</a>
-
-</section>
-
-<!-------- Footer -------->
-<section class="footer">
-    <a href=""><h4 class="has-text-light">About Us</h4></a>
-    <p class="has-text-light has-text-weight-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Quos illum corrupti, eligendi debitis numquam cupiditate accusantium perspiciatis inventore iure, voluptate, error at labore. <br>Autem nesciunt voluptate, quia dolores ad fugiat!</p>
-
-    <div class="icons">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-    </div>
-
-    <div class="copyright">
-        Copyright <i class="fa-regular fa-copyright"></i><p class="has-text-light has-text-weight-bold">2024 Eduford - All right reserved. POPIA | PAIA. </p>
-    </div>
-
-</section>
-
-
-<!-- Link to JavaScript file at the end of body for better performance -->
-<script src="script.js"></script>
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    burger.classList.toggle('is-active');
+                    navbarMenu.classList.toggle('is-active');
+                });
+            });
+        });
+    </script>
 </body>
 </html>
