@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <!-- Page title -->
     <title>Educare</title>
+   
 </head>
 <body>
     <!-- Header section -->
@@ -24,14 +25,26 @@
         <!-- Navigation bar -->
         <nav>
             <!-- Logo link -->
-            <a href="Index.html"><img src="images/e.png" alt="small image"></a>
+            <a href="Index.html"><img src="images/e.png" alt="site logo" style="max-height: 70px" class="py-2 px-2"></a>
 
             <!-- Navigation links -->
             <div class="nav-links" id="navlinks">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
-                    <li><a href="">Course</a></li>
+                    <li><a class="navbar-link" href="https://bulma.io/documentation/overview/start/">Course</a></li>
+                    
+                    <div class="navbar-dropdown is-boxed">
+                        <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">Overview</a>
+          <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">Modifiers</a>
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">Columns</a>
+          <a class="navbar-item is-selected" href="https://bulma.io/documentation/layout/container/">Layout</a>
+          <a class="navbar-item" href="https://bulma.io/documentation/form/general/">Form</a>
+          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">Elements</a>
+          <a class="navbar-item" href="https://bulma.io/documentation/components/breadcrumb/">omponents</a>
+
+                    </div>
                     <li><a href="">Study at Educare</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="">Contact</a></li>
@@ -139,7 +152,7 @@
 
         </div>
         <div class="f-col">
-            <a href="#"><img src="images/kitchen .jpeg" alt=""></a>
+            <a href="#"><img src="images/vivre.jpeg" alt=""></a>
             <h3>Visit Our kitchen</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Placeat, dolor cum? Similique fugit at porro sunt mollitia nemo iusto illum et dolor, <br>vel neque illo perferendis rerum velit perspiciatis ab!</p>
 
@@ -159,8 +172,8 @@
 
 <!-------- Footer -------->
 <section class="footer">
-    <a href=""><h4>About Us</h4></a>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Quos illum corrupti, eligendi debitis numquam cupiditate accusantium perspiciatis inventore iure, voluptate, error at labore. <br>Autem nesciunt voluptate, quia dolores ad fugiat!</p>
+    <a href=""><h4 class="has-text-light">About Us</h4></a>
+    <p class="has-text-light has-text-weight-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Quos illum corrupti, eligendi debitis numquam cupiditate accusantium perspiciatis inventore iure, voluptate, error at labore. <br>Autem nesciunt voluptate, quia dolores ad fugiat!</p>
 
     <div class="icons">
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -171,7 +184,7 @@
     </div>
 
     <div class="copyright">
-        Copyright <i class="fa-regular fa-copyright"></i><p>2024 Eduford - All right reserved. POPIA | PAIA. </p>
+        Copyright <i class="fa-regular fa-copyright"></i><p class="has-text-light has-text-weight-bold">2024 Eduford - All right reserved. POPIA | PAIA. </p>
     </div>
 
 </section>
